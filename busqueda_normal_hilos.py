@@ -6,6 +6,7 @@ import time
 
 def conectar_a_base_de_datos():
     # Ajusta los valores de usuario, contraseña, host y base de datos según tu configuración de XAMPP
+    
     return mysql.connector.connect(
         user='root',
         password='',
