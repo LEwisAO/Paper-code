@@ -6,6 +6,7 @@ import numpy as np
 import time
 import threading
 
+
 def conectar_a_base_de_datos():
     return mysql.connector.connect(
         user='root',
