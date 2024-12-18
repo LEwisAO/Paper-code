@@ -5,6 +5,7 @@ from selenium import webdriver
 def capturar_pantallas(url, carpeta_destino, cantidad_capturas):
     # Configura el driver de Selenium (asegúrate de tener el driver correspondiente instalado)
     # En este ejemplo, se utiliza el driver de Chrome. Puedes cambiarlo según tu navegador.
+    
     driver = webdriver.Chrome()
 
     try:
