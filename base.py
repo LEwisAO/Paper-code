@@ -3,6 +3,7 @@ import face_recognition
 import mysql.connector
 from mysql.connector import Error
 
+
 def conectar_a_base_de_datos():
     return mysql.connector.connect(
         user='root',
