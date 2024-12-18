@@ -5,6 +5,7 @@ from sklearn.neighbors import NearestNeighbors
 import numpy as np
 import time
 
+
 def conectar_a_base_de_datos():
     return mysql.connector.connect(
         user='root',
